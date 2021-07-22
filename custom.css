@@ -1,8 +1,22 @@
-.seccion{
-    min-height: 100vh;
+html{
+    scroll-behavior: smooth;
 }
+
 .navbar{
     position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.full-height{
+    min-height: 100vh;
+}
+#projects>h3{
+    padding-top: 70px;
+}
+footer{
+    max-height: 5vh;
+    font-size: .8rem;
+    text-align: center;
+    padding: 0;
 }
