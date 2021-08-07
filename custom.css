@@ -20,3 +20,9 @@ footer{
     text-align: center;
     padding: 0;
 }
+#barquito{
+    height: 40vh;
+    position: absolute;
+    display: block;
+    right: 1rem;
+}
