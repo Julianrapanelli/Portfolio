@@ -7,9 +7,12 @@ html{
     top: 0;
     z-index: 100;
 }
-
 .full-height{
     min-height: 100vh;
+    padding-bottom: 0;
+}
+main{
+    margin-top: 0;
 }
 #projects>h3{
     padding-top: 70px;
@@ -21,8 +24,9 @@ footer{
     padding: 0;
 }
 #barquito{
-    height: 40vh;
+    width: 20rem;
     position: absolute;
     display: block;
     right: 1rem;
+    margin-top: 2rem;
 }
